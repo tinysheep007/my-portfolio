@@ -28,7 +28,7 @@ export default function Home() {
 
       <section id="hero" className="w-full h-screen flex flex-col justify-center items-center text-center">
         <div className="flex justify-center">
-          <Image src="/images/a.png" alt="Profile Picture" width={150} height={150} className="rounded-full mb-4" />
+          <Image src="/images/a.png" alt="Profile Picture" width={150} height={150} className="rounded-full mb-4 transform transition duration-300 hover:scale-110" />
         </div>
         <div className="text-4xl font-bold mb-4">Hi! This is Zihe (Peter) Zhang</div>
         <div className="text-lg text-gray-600 mb-4">Software Engineer / Data Scientist</div>
