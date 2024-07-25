@@ -3,7 +3,7 @@ Please remember to add .env.local file under the root directory if you want the 
 ```
 EMAIL_USER=[your email]
 EMAIL_PASS=[your password(if you have google 2 step auth, you need to go to google account -> secuity -> app passwords to set it up)]
-GTAG_ID=[your google analytic tag ID]
+NEXT_PUBLIC_GTAG_ID=[your google analytic tag ID]
 
 ```
 
