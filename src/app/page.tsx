@@ -33,10 +33,10 @@ export default function Home() {
         <div className="text-4xl font-bold mb-4">Hi! This is Zihe (Peter) Zhang</div>
         <div className="text-lg text-gray-600 mb-4">Software Engineer / Data Scientist</div>
         <div className="flex justify-center space-x-4">
-          <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/tinysheep007" target="_blank" rel="noopener noreferrer">
             <Image src="/images/github.png" alt="GitHub Zihe Peter Zhang" width={32} height={32} />
           </a>
-          <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/peter-zhang-zihe/" target="_blank" rel="noopener noreferrer">
             <Image src="/images/linkedin.jpg" alt="LinkedIn Zihe Peter Zhang" width={32} height={32} />
           </a>
         </div>
