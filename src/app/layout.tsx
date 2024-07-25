@@ -21,13 +21,13 @@ export default function RootLayout({
       <head>
         <link rel="icon" type="image/png" sizes="32x32" href="/images/glasses.png" />
 
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GTAG_ID}`}></script>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG_ID}`}></script>
         <script dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${GTAG_ID}');
+            gtag('config', '${process.env.GTAG_ID}');
           `
         }}></script>
       </head>
