@@ -1,3 +1,11 @@
+Please remember to add .env.local file under the root directory if you want the conact email be sent to you.
+
+```
+EMAIL_USER=[your email]
+EMAIL_PASS=[your password(if you have google 2 step auth, you need to go to google account -> secuity -> app passwords to set it up)]
+
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
