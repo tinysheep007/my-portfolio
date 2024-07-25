@@ -17,7 +17,7 @@ export default function About() {
           </p>
         </div>
         <div className="flex justify-center">
-          <Image src="/images/aboutPic.png" alt="About Photo" width={400} height={400} className="rounded-lg max-w-full h-auto transform transition duration-300 hover:scale-110" />
+          <Image src="/images/aboutPic.png" alt="About Photo Zihe Peter Zhang" width={400} height={400} className="rounded-lg max-w-full h-auto transform transition duration-300 hover:scale-110" />
         </div>
       </div>
     </section>

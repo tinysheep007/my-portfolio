@@ -55,15 +55,15 @@ export default function Contact() {
         <h2 className="text-3xl font-bold mb-6 text-center">Contact Me</h2>
         <div className="flex flex-col items-center space-y-4 mb-6">
           <a href="mailto:your-email@example.com" className="flex items-center space-x-2 text-gray-700 hover:text-blue-500">
-            <Image src="/images/email.png" alt="Email" width={24} height={24} />
+            <Image src="/images/email.png" alt="Email Zihe Peter Zhang" width={24} height={24} />
             <span>pzxiaomie@gmail.com</span>
           </a>
           <a href="https://github.com/tinysheep007" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-gray-700 hover:text-blue-500">
-            <Image src="/images/github.png" alt="GitHub" width={24} height={24} />
+            <Image src="/images/github.png" alt="GitHub Zihe Peter Zhang" width={24} height={24} />
             <span>github.com/tinysheep007</span>
           </a>
           <a href="https://www.linkedin.com/in/peter-zhang-zihe/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-gray-700 hover:text-blue-500">
-            <Image src="/images/linkedin.jpg" alt="LinkedIn" width={24} height={24} />
+            <Image src="/images/linkedin.jpg" alt="LinkedIn Zihe Peter Zhang" width={24} height={24} />
             <span>linkedin.com/in/peter-zhang-zihe/</span>
           </a>
         </div>

@@ -63,7 +63,7 @@ const Projects = ({ projects }) => {
                   <a href={project.link} target="_blank" rel="noopener noreferrer">
                     <Image
                       src={project.images[currentImageIndices[index]]}
-                      alt={`${project.title} screenshot`}
+                      alt={`${project.title} screenshot Zihe Peter Zhang`}
                       layout="fill"
                       objectFit="cover"
                       className="rounded"

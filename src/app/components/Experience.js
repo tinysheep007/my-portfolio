@@ -82,7 +82,7 @@ function ExperienceCard({ experience }) {
         <div className="relative flex-shrink-0">
           <Image
             src={experience.images[currentImageIndex]}
-            alt={`${experience.title} image ${currentImageIndex + 1}`}
+            alt={`${experience.title} image ${currentImageIndex + 1} Zihe Peter Zhang`}
             width={150}
             height={150}
             className="rounded-lg"

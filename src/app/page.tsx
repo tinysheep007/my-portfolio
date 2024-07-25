@@ -28,16 +28,16 @@ export default function Home() {
 
       <section id="hero" className="w-full h-screen flex flex-col justify-center items-center text-center">
         <div className="flex justify-center">
-          <Image src="/images/a.png" alt="Profile Picture" width={150} height={150} className="rounded-full mb-4 transform transition duration-300 hover:scale-110" />
+          <Image src="/images/a.png" alt="Profile Picture Zihe Peter Zhang" width={150} height={150} className="rounded-full mb-4 transform transition duration-300 hover:scale-110" />
         </div>
         <div className="text-4xl font-bold mb-4">Hi! This is Zihe (Peter) Zhang</div>
         <div className="text-lg text-gray-600 mb-4">Software Engineer / Data Scientist</div>
         <div className="flex justify-center space-x-4">
           <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">
-            <Image src="/images/github.png" alt="GitHub" width={32} height={32} />
+            <Image src="/images/github.png" alt="GitHub Zihe Peter Zhang" width={32} height={32} />
           </a>
           <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer">
-            <Image src="/images/linkedin.jpg" alt="LinkedIn" width={32} height={32} />
+            <Image src="/images/linkedin.jpg" alt="LinkedIn Zihe Peter Zhang" width={32} height={32} />
           </a>
         </div>
       </section>
