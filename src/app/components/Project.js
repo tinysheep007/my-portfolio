@@ -65,7 +65,7 @@ const Projects = ({ projects }) => {
                       src={project.images[currentImageIndices[index]]}
                       alt={`${project.title} screenshot Zihe Peter Zhang`}
                       layout="fill"
-                      objectFit="cover"
+                      objectFit="contain"
                       className="rounded"
                     />
                   </a>

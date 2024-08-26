@@ -48,13 +48,14 @@ const projectData = [
       `,
       techStack: [
         { name: 'React Native', color: 'lightBlue' },
+        { name: 'Expo', color:"orange"},
+        { name: 'NativeWind', color:"gray"}
       ],
       images: [
-        '/images/project-numdle/1.jpeg',
-        '/images/project-numdle/2.jpeg',
-        '/images/project-numdle/3.png',
-        '/images/project-numdle/4.jpeg',
         '/images/project-numdle/5.png',
+        '/images/project-numdle/6.png',
+        '/images/project-numdle/3.png',
+        '/images/project-numdle/4.png',
       ],
       link: "https://github.com/tinysheep007/numdle"
     }
